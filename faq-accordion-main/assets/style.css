@@ -1,0 +1,227 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(202, 195, 180);
+}
+
+.faq-container
+{
+    background-image: url("../assets/images/background-pattern-desktop.svg");
+    height: 220px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 700px;
+}
+
+.small-container
+{
+    width: 460px;
+    background-color: white;
+    position: relative;
+    top: 130px;
+    margin: 0 auto;
+    box-shadow: 0px 10px #FFFFFF;
+border: 5px solid white;
+border-radius: 10px;
+}
+
+.small-faq-box
+{
+margin-top: -100px;
+}
+
+.small-container h1
+{
+    margin: -43px 170px 0 60px;
+    color: hsl(292, 42%, 14%);
+    font-weight: 700;
+}
+
+.small-faq-box h5
+{
+    font-size: 15px;
+    color: hsl(292, 42%, 14%);
+    font-weight: 600;
+    margin-top: 130px;
+}
+
+.small-faq-box h6
+{
+    font-size: 15px;
+    color: hsl(292, 42%, 14%);
+    font-weight: 600;
+   margin-top: 90px;
+}
+
+.small-faq-box
+{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.faq-mentor{
+font-size: 13px;
+color: gray;
+line-height: 25px;
+display: none;
+position: relative;
+top: -55px;
+}
+
+.plus
+{
+    position: relative;
+    left: 400px;
+    top: -60px;
+    display: block;
+}
+
+.minus
+{
+    position: relative;
+    left: 395px;
+    top: -60px;
+    display: none;
+}
+
+.first-plus
+{
+    margin-top: 35px;
+}
+
+.first-minus
+{
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 370px){
+
+
+    /**body{
+        background-color: red;
+       
+    }**/
+
+    .small-container
+    {
+        width: 80%;
+    }
+
+    .small-faq-box h5
+    {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .small-faq-box h6
+    {
+font-size: 13px;
+width: 80%;
+    }
+
+    .first-plus
+    {
+        /**position: relative;
+        left: 270px;
+        top: -72px;**/
+        margin-right: 700px;
+    }
+
+    .plus
+    {
+        position: relative;
+        left: 200px;
+        top: -60px;
+    }
+
+    .minus
+    {
+        position: relative;
+        left: 200px;
+        
+    }
+
+
+} 
+
+@media screen and (min-width: 371px) and (max-width: 429px){
+    .small-container
+    {
+        width: 80%;
+    }
+
+    .small-faq-box h5
+    {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .small-faq-box h6
+    {
+font-size: 13px;
+width: 70%;
+    }
+
+    .first-plus
+    {
+
+        margin-right: 700px;
+    }
+
+    .plus
+    {
+        position: relative;
+        left: 250px;
+        top: -60px;
+    }
+
+    .minus
+    {
+        position: relative;
+        left: 250px;
+        top: -60px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 480px){
+    .small-container
+    {
+        width: 80%;
+    }
+
+    .small-faq-box h5
+    {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .small-faq-box h6
+    {
+font-size: 13px;
+width: 70%;
+    }
+
+    .first-plus
+    {
+
+        margin-right: 700px;
+    }
+
+    .plus
+    {
+        position: relative;
+        left: 290px;
+        top: -60px;
+    }
+
+    .minus
+    {
+        position: relative;
+        left: 250px;
+        top: -60px;
+    }
+}
+    
+    
+
+
